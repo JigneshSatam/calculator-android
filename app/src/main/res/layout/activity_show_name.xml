@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.idfy.firstapplication.ShowName">
+
+    <TextView
+        android:id="@+id/greatings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Hi"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="169dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="179dp" />
+
+    <TextView
+        android:id="@+id/show_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="TextView"
+        android:layout_below="@+id/greatings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+
+    <Button
+        android:id="@+id/start_calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:text="Start Calc" />
+</RelativeLayout>
